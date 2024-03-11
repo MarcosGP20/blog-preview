@@ -1,0 +1,72 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.card {
+  width: 350px;
+  height: 450px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 8px 8px black;
+}
+
+span {
+  font-family: FuenteNasheItalic, sans-serif;
+  font-weight: bold;
+  background-color: hsl(47, 88%, 63%);
+  padding: 10px;
+}
+svg {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.publi {
+  color: black;
+}
+p {
+  font-family: FuenteNashe;
+  color: hsl(0, 0%, 50%);
+}
+h2 {
+  font-family: FuenteNasheItalic;
+}
+img {
+  width: 30px;
+  position: relative;
+  padding: 10px;
+}
+.avatar {
+  display: flex;
+}
+.avatar > p {
+  font-family: FuenteNasheItalic;
+  color: black;
+}
+
+.card:hover {
+  box-shadow: 14px 14px black;
+}
+h2:hover {
+  color: hsl(47, 88%, 63%);
+}
+@font-face {
+  font-family: "FuenteNashe";
+  src: url("assets/fonts/Figtree-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FuenteNasheItalic";
+  src: url(assets/fonts/static/Figtree-ExtraBold.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
